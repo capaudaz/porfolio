@@ -18,7 +18,11 @@ session_start();
     PLUGINS DE CSS
     ======================================-->
 
+    <!-- Bootstrap -->
     <link href="views/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="views/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <!-- Personales -->
     <link href="views/css/estilos.css" rel="stylesheet">
   </head>
   
@@ -38,7 +42,7 @@ session_start();
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
             <h1 class="fw-light">Marcos Antonio Riquelme Virgala</h1>
             <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
             <p>
