@@ -65,10 +65,10 @@ session_start();
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt saepe officiis, optio veritatis fugit voluptatem delectus, a earum expedita beatae laboriosam eveniet pariatur neque nam voluptas perferendis sapiente autem?</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Borrar</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -82,9 +82,9 @@ session_start();
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Borrar</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -98,9 +98,9 @@ session_start();
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Borrar</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -115,9 +115,9 @@ session_start();
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Borrar</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -131,9 +131,9 @@ session_start();
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Borrar</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -147,9 +147,9 @@ session_start();
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Borrar</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
