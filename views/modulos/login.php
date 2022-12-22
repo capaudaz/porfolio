@@ -20,16 +20,23 @@
     <h1 class="h3 mb-3 fw-normal">Login</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+      <input type="email" class="form-control" id="floatingInput" name="ingUsuario" placeholder="nombre@ejemplo.com" required>
       <label for="floatingInput">Email</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <input type="password" class="form-control" id="floatingPassword" name="ingPassword" placeholder="Password" required>
       <label for="floatingPassword">Contraseña</label>
     </div>
 
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Ingresar</button>
-    <!-- <button class="w-50 btn btn-lg btn-secondary" type="submit">Cancelar</button> -->
+    <button class="btn btn-lg btn-primary" type="submit">Ingresar</button>
+    <button class="btn btn-lg btn-secondary" type="submit">Cancelar</button>
+
+    <?php
+      require_once "../../controllers/users.controller.php";
+      $login = new ControllerUsers();
+      $login -> ctrLoginUser();
+    ?>
+
   </form>
 </main>
 

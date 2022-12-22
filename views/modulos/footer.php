@@ -18,19 +18,19 @@
     <section class="mb-4">
       <a class="btn btn-outline-light float-end m-1"  href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
       <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/virgala" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
 
       <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/RiquelmeVirgala" role="button" target="_blank"><i class="fab fa-twitter"></i></a>
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/capaudazz" role="button" target="_blank"><i class="fab fa-instagram"></i></a>
 
       <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/marcos-antonio-riquelme-virgala-73b6a3a/" role="button" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 
       <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/capaudaz" role="button" target="_blank"><i class="fab fa-github"></i></a>
     </section>
     <!-- Section: Social media -->
   </div>
