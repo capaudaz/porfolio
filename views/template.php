@@ -1,4 +1,7 @@
 <?php
+ob_start();
+set_error_handler("var_dump");
+session_start();
 
 $conexion = new Conexion();
 /*$sql = "SELECT * FROM `proyectos`";

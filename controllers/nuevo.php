@@ -1,6 +1,6 @@
 <?php
 if($_POST){
-    ob_start(); #esto evita los errores de envios de headers
+    ob_start();
     set_error_handler("var_dump");
     require_once "../models/conexion.php";
 

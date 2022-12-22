@@ -6,8 +6,7 @@
             <p class="lead text-muted">Con años de experiencia en la gestión de sistemas, he sido capaz de adaptarme a los diferentes planes informáticos de las empresas para las que he trabajado. Adicionalmente, cuento con una gran capacidad de análisis de la información y experiencia en la gestión de equipos y proyectos.</p>
             <p class="lead text-muted">Actualmente, mi objetivo principal es sumar experiencia en el desarrollo Full Stack.</p>
             <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                <a href="views/docs/CV_Marcos_Riquelme_Virgala.pdf" class="btn btn-primary my-2" target="_blank">Descargar mi Curriculum Vitae en PDF</a>
             </p>
         </div>
     </div>

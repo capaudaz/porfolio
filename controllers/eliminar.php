@@ -13,7 +13,7 @@ if($_GET){
         #recuperamos la imagen de la base antes de borrar 
         $imagenProyecto = $conexion->consultar("SELECT imagen FROM  `proyectos` where id=".$id);
         #la borramos de la carpeta 
-        unlink("../views/pictures/".$imagen[0]['imagen']);
+        unlink("../views/pictures/".$imagenProyecto[0]['imagen']);
 
         #borramos el registro de la base 
         $sql ="DELETE FROM `proyectos` WHERE `proyectos`.`id` =".$id; 

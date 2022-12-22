@@ -38,4 +38,13 @@ class Conexion{
          3ro fetchall() nos devuelve un array con las filas del select  */
     }
 
+    public function consultar1($sql){ # select 
+        #ejecuta la consulta y nos devuelve la info de la base
+        $sentencia = $this->conexion->prepare($sql);
+        $sentencia->execute();
+        #retorna un registro de la consulta sql
+        return $sentencia->fetch();
+        
+    }
+
 }
