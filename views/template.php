@@ -31,6 +31,19 @@ $proyectos= $conexion->consultar("SELECT * FROM `proyectos`");
     <link href="views/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
     <!-- Personales -->
     <link href="views/css/estilos.css" rel="stylesheet">
+    <!-- Sweet Alert 2 -->
+    <!-- <link rel="stylesheet" href="views/css/sweetalert2.min.css"> -->
+
+    <!--=====================================
+    PLUGINS DE JS
+    ======================================-->
+
+    <script src="views/js/jquery-3.6.3.min.js"></script>    
+    <script src="views/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.js"></script> -->
+
   </head>
   
   <body>
@@ -68,8 +81,6 @@ $proyectos= $conexion->consultar("SELECT * FROM `proyectos`");
 
     ?>
 
-    <script src="views/js/jquery-3.6.3.min.js"></script>    
-    <script src="views/js/bootstrap.bundle.min.js"></script>
     <script src="views/js/cards.js"></script>
 
   </body>
