@@ -1,6 +1,6 @@
-<section class="py-2 text-center container-fluid header">
+<section class="py-1 text-center container-fluid header">
     <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="col-lg-6 col-md-8 mx-auto pt-5">
             <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="views/img/marcos.jpg" alt="Foto Marcos">
             <h1 class="fw-light">Marcos A. Riquelme Virgala</h1>
             <p class="lead text-muted">Con años de experiencia en la gestión de sistemas, he sido capaz de adaptarme a los diferentes planes informáticos de las empresas para las que he trabajado. Adicionalmente, cuento con una gran capacidad de análisis de la información y experiencia en la gestión de equipos y proyectos.</p>

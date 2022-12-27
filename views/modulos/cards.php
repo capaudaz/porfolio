@@ -1,4 +1,4 @@
-<div class="album py-2 bg-light">
+<div class="album py-4 bg-light">
   <div class="container tarjetas">
 
     <div class="row">
