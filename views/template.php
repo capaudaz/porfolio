@@ -40,9 +40,6 @@ $proyectos= $conexion->consultar("SELECT * FROM `proyectos`");
 
     <script src="views/js/jquery-3.6.3.min.js"></script>    
     <script src="views/js/bootstrap.bundle.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.js"></script> -->
 
   </head>
   
