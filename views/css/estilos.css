@@ -48,3 +48,11 @@ user-select: none;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+
+.header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

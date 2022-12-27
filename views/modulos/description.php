@@ -1,4 +1,4 @@
-<section class="py-3 text-center container">
+<section class="py-2 text-center container-fluid header">
     <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
             <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="views/img/marcos.jpg" alt="Foto Marcos">
