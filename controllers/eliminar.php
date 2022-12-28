@@ -20,7 +20,7 @@ if($_GET){
         $respuesta = $conexion->ejecutar($sql);
 
         #para que no intente borrar muchas veces
-        header("Location:../index.php");
+        header("Location:../index.php#porfolio");
         die();
     }
 }

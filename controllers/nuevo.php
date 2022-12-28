@@ -14,6 +14,6 @@ if($_POST){
     $conexion = new Conexion();
     $sql = "INSERT INTO `proyectos` (`id`,`nombre`,`imagen`,`descripcion`,`url`) VALUES (NULL,'$nombreProyecto','$imagenProyecto','$descripcionProyecto','$urlProyecto')";
     $respuesta = $conexion->ejecutar($sql);
-    header("Location:../index.php");
+    header("Location:../index.php#porfolio");
     die();
 }

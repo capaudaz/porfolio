@@ -13,13 +13,12 @@ if($_POST){
     $sql = "INSERT INTO `contactos` (`id`,`nombre`,`email`,`asunto`,`comentario`) VALUES (NULL,'$nombreContacto','$emailContacto','$asuntoContacto','$comentarioContacto')";
     $respuesta = $conexion->ejecutar($sql);
 
-    echo 
-    "<script> 
+    echo "
+    <script> 
         window.location = window.location='../index.php';
         alert('GRACIAS POR DEJARME UN MENSAJE')
     </script>";
 
-    // header("Location:../index.php");
     die();
 }
 ?>

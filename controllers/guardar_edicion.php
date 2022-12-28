@@ -22,7 +22,7 @@ if(isset($_POST["editarNombreProyecto"])){
     }
     
     $respuesta = $conexion->ejecutar($sql);
-    header("Location:../index.php");
+    header("Location:../index.php#porfolio");
     die();
 
 }
