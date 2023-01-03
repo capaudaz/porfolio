@@ -31,7 +31,7 @@
                     <?php
                       if(isset($_SESSION["inicioSesion"])){
                         echo "<button type='button' class='btn btn-sm btn-outline-secondary btnEditCard' idCard='".$proyecto['id']."' data-bs-toggle='modal' data-bs-target='#modalEditarTarjeta'>Editar</button>";
-                        echo "<a href='controllers/eliminar.php?id=".$proyecto['id']."' name='eliminarProyecto' id='eliminarProyecto'><button type='button' class='btn btn-sm btn-outline-secondary btnDeleteCard'>Borrar</button></a>";
+                        echo "<a href='controllers/eliminar.php?id=".$proyecto['id']."' name='eliminarProyecto' id='eliminarProyecto'><button type='button' class='btn btn-sm btn-outline-danger btnDeleteCard'>Borrar</button></a>";
                       };
                     ?>
 
