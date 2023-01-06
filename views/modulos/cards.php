@@ -26,16 +26,18 @@
                 <p class="card-text"><?php echo $proyecto['descripcion'];?></p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="<?php echo $proyecto['url']; ?>" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Ver</button></a>
+                    <a href="<?php echo $proyecto['url']; ?>" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary" title="Ver sitio"><i class="fas fa-glasses"></i></button></a>
 
                     <?php
                       if(isset($_SESSION["inicioSesion"])){
-                        echo "<button type='button' class='btn btn-sm btn-outline-secondary btnEditCard' idCard='".$proyecto['id']."' data-bs-toggle='modal' data-bs-target='#modalEditarTarjeta'>Editar</button>";
-                        echo "<a href='controllers/eliminar.php?id=".$proyecto['id']."' name='eliminarProyecto' id='eliminarProyecto'><button type='button' class='btn btn-sm btn-outline-danger ml-auto btnDeleteCard'><i class='fas fa-trash-alt'></i></button></a>";
+                        echo "<a><button type='button' class='btn btn-sm btn-outline-secondary btnEditCard' title='Editar tarjeta' idCard='".$proyecto['id']."' data-bs-toggle='modal' data-bs-target='#modalEditarTarjeta'><i class='fas fa-edit'></i></button></a>";
+                        echo "</div>";
+                        echo "<a href='controllers/eliminar.php?id=".$proyecto['id']."' name='eliminarProyecto' id='eliminarProyecto'><button type='button' class='btn btn-sm btn-outline-danger ml-auto btnDeleteCard' title='Eliminar tarjeta'><i class='fas fa-trash-alt'></i></button></a>";
+                      }else{
+                        echo "</div>";
                       };
                     ?>
 
-                  </div>
                 </div>
               </div>
             </div>
